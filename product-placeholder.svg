@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+<title id="title">ShopEasy product image</title><desc id="desc">Decorative placeholder used when a product photo cannot load.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e7efe8"/><stop offset="1" stop-color="#f1e4d4"/></linearGradient><linearGradient id="device" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#28494b"/><stop offset="1" stop-color="#132c35"/></linearGradient></defs>
+<rect width="900" height="650" fill="url(#bg)"/>
+<circle cx="710" cy="120" r="100" fill="#d6ad79" opacity=".26"/><circle cx="170" cy="540" r="130" fill="#176b63" opacity=".09"/>
+<ellipse cx="450" cy="495" rx="220" ry="24" fill="#193b3c" opacity=".13"/>
+<rect x="310" y="155" width="280" height="300" rx="32" fill="url(#device)" stroke="#fffdf8" stroke-width="8"/>
+<rect x="335" y="180" width="230" height="250" rx="18" fill="#e7efe8"/>
+<path d="M380 355 L430 300 L465 330 L510 265 L540 300 L540 390 L380 390 Z" fill="#176b63" opacity=".82"/>
+<circle cx="440" cy="245" r="24" fill="#d6ad79"/>
+<text x="450" y="545" font-family="Arial, sans-serif" font-size="29" font-weight="700" text-anchor="middle" fill="#19363b">ShopEasy</text>
+<text x="450" y="578" font-family="Arial, sans-serif" font-size="17" text-anchor="middle" fill="#60746d">Product photo unavailable</text>
+</svg>

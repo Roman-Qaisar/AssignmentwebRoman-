@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Review your ShopEasy cart and complete the demo checkout form.">
+  <title>Your Cart | ShopEasy</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="ShopEasy home">Shop<span>Easy</span></a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links"><a href="index.html">Home</a><a href="products.html">Products</a><a class="active" href="cart.html">Cart <span class="cart-count" aria-label="Items in cart">0</span></a></div>
+    </nav>
+  </header>
+  <main class="container page-main">
+    <section class="page-intro"><p class="eyebrow">ALMOST THERE</p><h1>Your shopping cart</h1><p>Review your picks before the demo checkout.</p></section>
+    <section class="cart-layout" aria-labelledby="cart-heading">
+      <div class="cart-panel">
+        <h2 id="cart-heading">Cart items</h2>
+        <div class="table-wrap">
+          <table class="cart-table">
+            <thead><tr><th scope="col">Product</th><th scope="col">Price</th><th scope="col">Quantity</th><th scope="col">Subtotal</th><th scope="col"><span class="visually-hidden">Remove</span></th></tr></thead>
+            <tbody id="cartBody"><tr><td colspan="5">Your cart is empty. <a href="products.html">Browse products</a>.</td></tr></tbody>
+          </table>
+        </div>
+      </div>
+      <aside class="summary-panel" aria-labelledby="summary-heading">
+        <h2 id="summary-heading">Order summary</h2>
+        <div class="summary-line"><span>Items total</span><strong id="grandTotal">Rs 0.00</strong></div>
+        <p class="summary-note">Sample prices are shown in Pakistani rupees (PKR). No payment will be taken.</p>
+        <a class="button button-secondary full-button" href="products.html">Continue shopping</a>
+      </aside>
+    </section>
+
+    <section class="checkout-section" aria-labelledby="checkout-heading">
+      <div class="checkout-heading"><p class="eyebrow">DEMO CHECKOUT</p><h2 id="checkout-heading">Delivery details</h2><p>Complete all fields. This form validates input locally and does not send data to a server.</p></div>
+      <form id="checkoutForm" novalidate>
+        <div class="form-grid">
+          <div class="form-field"><label for="fullName">Full name <span>*</span></label><input id="fullName" name="fullName" type="text" autocomplete="name" minlength="3" pattern="[A-Za-z][A-Za-z .'-]{2,}" required aria-describedby="fullNameError"><small class="field-error" id="fullNameError"></small></div>
+          <div class="form-field"><label for="email">Email address <span>*</span></label><input id="email" name="email" type="email" autocomplete="email" required aria-describedby="emailError"><small class="field-error" id="emailError"></small></div>
+          <div class="form-field"><label for="phone">Phone number <span>*</span></label><input id="phone" name="phone" type="tel" autocomplete="tel" pattern="[0-9+() -]{7,20}" minlength="7" required aria-describedby="phoneError" placeholder="+92 300 1234567"><small class="field-error" id="phoneError"></small></div>
+          <div class="form-field"><label for="city">City <span>*</span></label><select id="city" name="city" required aria-describedby="cityError"><option value="">Choose a city</option><option>Lahore</option><option>Karachi</option><option>Islamabad</option><option>Rawalpindi</option><option>Faisalabad</option><option>Multan</option><option>Peshawar</option><option>Quetta</option><option>Other</option></select><small class="field-error" id="cityError"></small></div>
+          <div class="form-field form-field-wide"><label for="address">Delivery address <span>*</span></label><textarea id="address" name="address" rows="3" minlength="10" maxlength="250" required aria-describedby="addressError" autocomplete="street-address" placeholder="House, street, area..."></textarea><small class="field-error" id="addressError"></small></div>
+        </div>
+        <button class="button button-primary" type="submit">Validate demo checkout</button>
+        <p id="checkoutMessage" class="checkout-message" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="index.html">Shop<span>Easy</span></a><p>Good tech. Easy choices.</p><p>© <span class="current-year"></span> ShopEasy Student Demo</p></div></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/ui.js"></script>
+</body>
+</html>

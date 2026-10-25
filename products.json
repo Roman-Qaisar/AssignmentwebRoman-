@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "NovaBook Air 14",
+    "price": 899.0,
+    "category": "computers",
+    "rating": 4.7,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=900&q=88",
+    "description": "Lightweight laptop for work and study."
+  },
+  {
+    "id": 2,
+    "name": "Pulse Wireless Headphones",
+    "price": 79.99,
+    "category": "audio",
+    "rating": 4.5,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=900&q=88",
+    "description": "Comfortable over-ear sound with rich bass."
+  },
+  {
+    "id": 3,
+    "name": "PixelPro Smartphone",
+    "price": 649.0,
+    "category": "phones",
+    "rating": 4.6,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=900&q=88",
+    "description": "A bright display and an excellent everyday camera."
+  },
+  {
+    "id": 4,
+    "name": "Orbit Smart Watch",
+    "price": 129.5,
+    "category": "wearables",
+    "rating": 4.2,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1544117519-31a4b719223d?auto=format&fit=crop&w=900&q=88",
+    "description": "Track activity and stay connected on the go."
+  },
+  {
+    "id": 5,
+    "name": "UltraView 27-inch Monitor",
+    "price": 249.0,
+    "category": "computers",
+    "rating": 4.8,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=900&q=88",
+    "description": "Sharp detail for productivity and entertainment."
+  },
+  {
+    "id": 6,
+    "name": "BoomBox Mini Speaker",
+    "price": 45.0,
+    "category": "audio",
+    "rating": 4.1,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1608156639585-b3a032ef9689?auto=format&fit=crop&w=900&q=88",
+    "description": "Portable sound for your desk or weekend."
+  },
+  {
+    "id": 7,
+    "name": "GamePad Wireless Controller",
+    "price": 59.99,
+    "category": "gaming",
+    "rating": 4.4,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1603481546238-487240415921?auto=format&fit=crop&w=900&q=88",
+    "description": "Responsive controls for your favourite games."
+  },
+  {
+    "id": 8,
+    "name": "SnapShot Digital Camera",
+    "price": 499.0,
+    "category": "cameras",
+    "rating": 4.3,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1510125659524-7ea5d7f8b4d1?auto=format&fit=crop&w=900&q=88",
+    "description": "Capture memorable moments in crisp detail."
+  },
+  {
+    "id": 9,
+    "name": "KeyPro Mechanical Keyboard",
+    "price": 89.0,
+    "category": "computers",
+    "rating": 4.6,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=900&q=88",
+    "description": "Tactile keys and a clean, compact layout."
+  },
+  {
+    "id": 10,
+    "name": "PowerGo 20K Power Bank",
+    "price": 34.99,
+    "category": "accessories",
+    "rating": 4.0,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1609592806596-b43bada0f7e3?auto=format&fit=crop&w=900&q=88",
+    "description": "Extra battery power when you need it most."
+  },
+  {
+    "id": 11,
+    "name": "AirDots Pro Earbuds",
+    "price": 69.0,
+    "category": "audio",
+    "rating": 4.4,
+    "inStock": false,
+    "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=900&q=88",
+    "description": "Compact wireless earbuds with a snug fit."
+  },
+  {
+    "id": 12,
+    "name": "USB-C Multiport Hub",
+    "price": 29.99,
+    "category": "accessories",
+    "rating": 4.2,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1625948515291-69613efd103f?auto=format&fit=crop&w=900&q=88",
+    "description": "Add useful ports to your laptop setup."
+  },
+  {
+    "id": 13,
+    "name": "SlateTab 11 Tablet",
+    "price": 329.0,
+    "category": "phones",
+    "rating": 4.5,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=900&q=85",
+    "description": "A crisp, lightweight tablet for reading, streaming and everyday tasks."
+  },
+  {
+    "id": 14,
+    "name": "Studio Wireless Gaming Headset",
+    "price": 89.99,
+    "category": "gaming",
+    "rating": 4.6,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1599669454699-248893623440?auto=format&fit=crop&w=900&q=85",
+    "description": "Comfortable over-ear audio for long gaming sessions and calls."
+  },
+  {
+    "id": 15,
+    "name": "ClearView HD Webcam",
+    "price": 54.5,
+    "category": "cameras",
+    "rating": 4.3,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1587826080692-f439cd0b70da?auto=format&fit=crop&w=900&q=85",
+    "description": "A compact webcam for online classes, meetings and streaming."
+  },
+  {
+    "id": 16,
+    "name": "SwiftGlide Wireless Mouse",
+    "price": 34.99,
+    "category": "computers",
+    "rating": 4.4,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=900&q=85",
+    "description": "A precise, comfortable mouse for work and everyday browsing."
+  },
+  {
+    "id": 17,
+    "name": "SoundPod Bluetooth Speaker",
+    "price": 69.0,
+    "category": "audio",
+    "rating": 4.5,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=85",
+    "description": "Room-filling sound in a compact speaker made for your desk."
+  },
+  {
+    "id": 18,
+    "name": "TurboVault 1TB Portable SSD",
+    "price": 109.99,
+    "category": "accessories",
+    "rating": 4.7,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=900&q=85",
+    "description": "Fast portable storage for backups, projects and media libraries."
+  },
+  {
+    "id": 19,
+    "name": "ActiveLoop Fitness Band",
+    "price": 59.99,
+    "category": "wearables",
+    "rating": 4.2,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?auto=format&fit=crop&w=900&q=85",
+    "description": "Track daily movement and keep your activity goals in view."
+  },
+  {
+    "id": 20,
+    "name": "PlayCore Console Controller",
+    "price": 64.99,
+    "category": "gaming",
+    "rating": 4.6,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1592840496694-26d035b52b48?auto=format&fit=crop&w=900&q=85",
+    "description": "Responsive wireless controls for casual and competitive play."
+  },
+  {
+    "id": 21,
+    "name": "ChargeMate 65W USB-C Adapter",
+    "price": 39.99,
+    "category": "accessories",
+    "rating": 4.4,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=900&q=85",
+    "description": "A compact fast charger for compatible laptops, tablets and phones."
+  },
+  {
+    "id": 22,
+    "name": "Focus DSLR Camera Lens",
+    "price": 219.0,
+    "category": "cameras",
+    "rating": 4.5,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?auto=format&fit=crop&w=900&q=85",
+    "description": "A versatile camera lens for portraits, travel and creative projects."
+  },
+  {
+    "id": 23,
+    "name": "LiftPro Aluminium Laptop Stand",
+    "price": 42.0,
+    "category": "computers",
+    "rating": 4.6,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=900&q=85",
+    "description": "Raise your laptop for a tidier desk and a more comfortable setup."
+  },
+  {
+    "id": 24,
+    "name": "PocketBeam Mini Projector",
+    "price": 189.0,
+    "category": "accessories",
+    "rating": 4.3,
+    "inStock": true,
+    "image": "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=900&q=85",
+    "description": "A compact projector for movie nights, presentations and travel."
+  }
+]
